@@ -1,0 +1,27 @@
+<script type="text/javascript">
+	function login() {
+		if (check_form()) {
+			$("#form_login").submit();
+		}
+
+	}
+	function check_form() {
+		if ($('#username').val()!=''&&$('#password').val()!='') {
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
+	function keyLogin() {
+		if (event.keyCode == 13) {
+			if (check_form("form_login")) {
+				$("#form_login").submit();
+				return false;
+			}
+		}
+	}
+	$(document).ready(function() {
+		
+	});
+</script>

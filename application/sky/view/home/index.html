@@ -1,0 +1,90 @@
+﻿{layout name="layout/layout"/}
+<!-- Page Body -->
+<div class="page-body">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <div class="widget">
+                <div class="widget-header ">
+                    <span class="widget-caption">科目金额明细表</span>
+                    <div class="widget-buttons">
+                        <a href="#" data-toggle="maximize">
+                            <i class="fa fa-expand"></i>
+                        </a>
+                        <a href="#" data-toggle="collapse">
+                            <i class="fa fa-minus"></i>
+                        </a>
+                        <a href="#" data-toggle="dispose">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="widget-body">
+                    <div class="col-xs-12" style="padding: 0px">
+                        <div class="table-toolbar col-xs-12 col-md-4">
+                            <a id="select_account" href="javascript:void(0);" class="btn btn-default" onclick="hide_tree()">
+                                选择显示科目
+                            </a>
+                            <div id="tree" class="dd shadowed hide">
+                                <ol id="tree_0" class="dd-list">
+                                    
+                                </ol>
+
+                            </div>
+                        </div>
+                        <div class="table-toolbar  col-xs-12 col-md-3">
+                            <div class="controls">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </span><input type="text" class="form-control" id="reservation" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-toolbar  col-xs-12  col-md-1 pull-right" style="text-align: right">
+                            <a id="search" href="javascript:void(0);" class="btn btn-info" style="margin-top: 2px">
+                            查询</a>
+                        </div>
+                        <div class="table-toolbar  col-xs-12  col-md-1 pull-right" style="text-align: right">
+                            <a id="editabledatatable_new" href="javascript:void(0);" class="btn btn-default purple" style="margin-top: 2px">
+                                <i class="fa fa-plus"></i>新增
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <table class="table table-striped table-hover table-bordered" id="editabledatatable">
+                        <thead>
+                            <tr role="row">
+                                <th>
+                                    科目名称
+                                </th>
+                                <th>
+                                    录入日期
+                                </th>
+                                <th>
+                                    金额
+                                </th>
+                                <th>
+                                    操作
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>基本工资</td>
+                                <td>2017-01</td>
+                                <td>345.78</td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="#" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Page Body -->
+            

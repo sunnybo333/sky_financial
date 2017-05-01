@@ -1,0 +1,1054 @@
+[ 2017-04-24T17:27:16+08:00 ] ::1 ::1 GET /sky_sys/public/
+[ log ] localhost/sky_sys/public/ [运行时间：0.776712s][吞吐率：1.29req/s] [内存消耗：1,357.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Login->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\login\index.html [ array (
+  0 => 'js_file',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:28:30+08:00 ] ::1 ::1 GET /sky_sys/public/
+[ log ] localhost/sky_sys/public/ [运行时间：0.053549s][吞吐率：18.67req/s] [内存消耗：1,323.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Login->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:28:30+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.093737s][吞吐率：10.67req/s] [内存消耗：1,409.75kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:31:41+08:00 ] ::1 ::1 GET /sky_sys/public/
+[ log ] localhost/sky_sys/public/ [运行时间：1.006589s][吞吐率：0.99req/s] [内存消耗：1,323.45kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Login->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:31:42+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.395267s][吞吐率：2.53req/s] [内存消耗：1,641.61kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:32:00+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.081451s][吞吐率：12.28req/s] [内存消耗：1,680.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378; _gat=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:32:59+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.088738s][吞吐率：11.27req/s] [内存消耗：1,635.24kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:33:33+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.082417s][吞吐率：12.13req/s] [内存消耗：1,635.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378; _gat=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:33:46+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.083276s][吞吐率：12.01req/s] [内存消耗：1,680.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:34:27+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.084408s][吞吐率：11.85req/s] [内存消耗：1,636.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:49:16+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.085781s][吞吐率：11.66req/s] [内存消耗：1,603.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:59:20+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.089246s][吞吐率：11.20req/s] [内存消耗：1,609.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:59:29+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.018634s][吞吐率：53.67req/s] [内存消耗：1,373.79kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378; _gat=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:59:31+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/menu-dropdown
+[ log ] localhost/sky_sys/public/sky/home/menu-dropdown [运行时间：0.110518s][吞吐率：9.05req/s] [内存消耗：1,325.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'menu-dropdown',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:59:49+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/menu-dropdown
+[ log ] localhost/sky_sys/public/sky/home/menu-dropdown [运行时间：0.020529s][吞吐率：48.71req/s] [内存消耗：1,326.03kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'menu-dropdown',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:59:50+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/menu-dropdown
+[ log ] localhost/sky_sys/public/sky/home/menu-dropdown [运行时间：0.019618s][吞吐率：50.97req/s] [内存消耗：1,326.03kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'menu-dropdown',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T17:59:54+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.079884s][吞吐率：12.52req/s] [内存消耗：1,609.43kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:00:45+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.077824s][吞吐率：12.85req/s] [内存消耗：1,609.47kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:03:32+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.082630s][吞吐率：12.10req/s] [内存消耗：1,610.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:17:47+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.086666s][吞吐率：11.54req/s] [内存消耗：1,611.69kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:19:55+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.086287s][吞吐率：11.59req/s] [内存消耗：1,612.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:20:31+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.078311s][吞吐率：12.77req/s] [内存消耗：1,612.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378; _gat=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:24:28+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.109463s][吞吐率：9.14req/s] [内存消耗：1,612.88kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:32:52+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.087915s][吞吐率：11.37req/s] [内存消耗：1,612.93kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:45:17+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.086407s][吞吐率：11.57req/s] [内存消耗：1,612.93kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:46:03+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.019019s][吞吐率：52.58req/s] [内存消耗：1,373.79kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _ga=GA1.1.875886901.1492932378; _gat=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:46:05+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.018365s][吞吐率：54.45req/s] [内存消耗：1,373.79kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:46:07+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.018630s][吞吐率：53.68req/s] [内存消耗：1,373.79kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T18:46:12+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.019585s][吞吐率：51.06req/s] [内存消耗：1,373.79kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sky_sys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9230941184; _gat=1; _ga=GA1.1.875886901.1492932378',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ D:\phpStudy\WWW\sky_sys\application\sky\controller\Home.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sky_sys\public/../application/sky\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T22:09:12+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.031981s][吞吐率：31.27req/s] [内存消耗：1,992.57kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_sys/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_sys/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T22:13:51+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.019203s][吞吐率：52.08req/s] [内存消耗：1,992.57kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_sys/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_sys/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T22:14:42+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.018361s][吞吐率：54.46req/s] [内存消耗：1,733.82kb] [文件加载：46]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; _ga=GA1.1.1075840856.1493040292; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_sys/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T22:15:41+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.025339s][吞吐率：39.47req/s] [内存消耗：1,733.88kb] [文件加载：46]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_sys/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-24T22:18:20+08:00 ] ::1 ::1 GET /sky_sys/public/sky/home/index.html
+[ log ] localhost/sky_sys/public/sky/home/index.html [运行时间：0.025123s][吞吐率：39.80req/s] [内存消耗：1,733.88kb] [文件加载：46]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_sys/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_sys/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_sys/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

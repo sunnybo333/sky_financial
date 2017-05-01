@@ -1,0 +1,46 @@
+<script type="text/javascript">
+	var pid=0;var hide=1;
+	$(document).ready(function() {
+		tree(eval({$list_node}),0,0);
+		//console.log(eval({$list_node}));
+		jQuery(function ($) {
+	        $('.dd').nestable();
+	        $('.dd-handle a').on('mousedown', function (e) {
+	            e.stopPropagation();
+	        });
+	    });
+	});
+	function tree(arr,pid=0,level=0) {
+		for (var i = 0; i < arr.length; i++) {
+			if (arr[i]['pid']==pid) {
+				//console.log(arr[i]['pid']+'$'+pid);
+				var str='';
+				if(arr[i]['top']==1){
+					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-inverse"><div class="dd-handle"><div name="'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="select('+arr[i]['id']+')">选择</a></div></div><ol id="tree_'+arr[i]['id']+'" class="dd-list"></ol></li>';
+				}
+				else{
+					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-blue"><div class="dd-handle"><div name="'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="select('+arr[i]['id']+')">选择</a></div></div></li>';
+				}
+
+				$("#tree_"+arr[i]['pid']).append(str);
+				tree(arr,arr[i]['id'],level+1);
+			}
+		}
+	}
+	function select(id) {
+		pid=id;
+		$('#tree').addClass('hide');
+		$('#select_account').html($('div[name="'+pid+'"]').html());
+		hide=1;
+		console.log(pid);
+	}
+	function hide_tree() {
+		if (hide==0) {
+			$('#tree').addClass('hide');
+			hide=1;
+		} else {
+			$('#tree').removeClass('hide');
+			hide=0;
+		}
+	}
+</script>

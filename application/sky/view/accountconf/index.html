@@ -1,0 +1,73 @@
+﻿{layout name="layout/layout"/}
+<!-- Page Body -->
+<div class="page-body">
+    <div class="row">
+        <div class="col-lg-6 col-sm-6 col-xs-12">
+            <h5 class="row-title">
+            <a name="show_add_modal" href="javascript:void(0);" class="btn btn-labeled btn-palegreen" onclick="show_add_modal(0)"><i class="btn-label fa fa-plus"></i>新增一级分类</a></h5>
+            <div class="dd shadowed">
+                <ol id="tree_0" class="dd-list">
+                    
+                </ol>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Page Body -->
+<!--add Modal Templates-->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">添加分类</h4>
+      </div>
+      <div class="modal-body">
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">分类名称：</label>
+            <input type="text" class="form-control" id="account">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button id="sub_add" type="button" class="btn btn-primary" onclick="add()">提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end add Modal Templates-->
+<!--Small Modal Templates-->
+<div id="modal_small" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="mySmallModalLabel">提示框</h4>
+            </div>
+            <div class="modal-body">
+                <label id="modal_text"></label>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!--End Small Modal Templates-->
+<!-- del modal -->
+<div id="delModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">提示框</h4>
+          </div>
+          <div class="modal-body">
+            <p>确定要删除吗？</p>
+          </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary" onclick="del()">确定</button>
+        </div>
+    </div>
+  </div>
+</div>
+<!--end del modal -->

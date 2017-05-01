@@ -1,0 +1,77 @@
+<script type="text/javascript">
+	var temp_id=0;
+    $(document).ready(function() {
+		tree(eval({$list_node}),0,0);
+		//console.log(eval({$list_node}));
+		jQuery(function ($) {
+	        $('.dd').nestable();
+	        $('.dd-handle a').on('mousedown', function (e) {
+	            e.stopPropagation();
+	        });
+	    });
+	});
+	function tree(arr,pid=0,level=0) {
+		for (var i = 0; i < arr.length; i++) {
+			if (arr[i]['pid']==pid) {
+				//console.log(arr[i]['pid']+'$'+pid);
+				var str='';
+				if(arr[i]['top']==1){
+					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-inverse"><div class="dd-handle"><div class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="del" type="button" class="btn btn-danger" style="padding:2px" onclick="show_del_modal('+arr[i]['id']+')">DEL</a><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="show_add_modal('+arr[i]['id']+')">ADD</a></div></div><ol id="tree_'+arr[i]['id']+'" class="dd-list"></ol></li>';
+				}
+				else{
+					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-blue"><div class="dd-handle"><div class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="del" type="button" class="btn btn-danger" style="padding:2px" onclick="show_del_modal('+arr[i]['id']+')">DEL</a><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="show_add_modal('+arr[i]['id']+')">ADD</a></div></div></li>';
+				}
+
+				$("#tree_"+arr[i]['pid']).append(str);
+				tree(arr,arr[i]['id'],level+1);
+			}
+		}
+	}
+	function add() {
+		if ($('#account').val()!=''&&$('#account').val().length<20) {
+        	$.get("{:url('add')}", {pid:temp_id,account_name:$('#account').val()}, function (data) {
+        		console.log(data);
+        		if (data==1) {
+        			$('#modal_text').html('提交成功！');
+        			$('#modal_small').modal('show');
+        			window.location.href="{:url('index')}";
+        		} else {
+        			$('#modal_text').html('提交失败/(ㄒoㄒ)/~~');
+        			$('#modal_small').modal('show');
+        		}
+        	});
+        } else {
+    		$('#modal_text').html('分类名称不合规！');
+            $('#modal_small').modal('show');
+    	}
+	}
+	function del() {
+		$('#delModal').modal('hide');
+		$.get("{:url('del')}", {id:temp_id}, function (data) {
+    		console.log(data);
+    		if (data==1) {
+    			$('#modal_text').html('删除成功！');
+    			$('#modal_small').modal('show');
+    			window.location.href="{:url('index')}";
+    		} 
+    		else if (data==3) {
+    			$('#modal_text').html('无法删除，该科目下还有未删除的二级科目！');
+    			$('#modal_small').modal('show');
+    		} 
+    		else {
+    			$('#modal_text').html('删除失败/(ㄒoㄒ)/~~');
+    			$('#modal_small').modal('show');
+    		}
+    	});
+	}
+	function show_add_modal(id=0) {
+		temp_id=id;
+		console.log(temp_id);
+		$('#addModal').modal('show');
+	}
+	function show_del_modal(id=0) {
+		temp_id=id;
+		console.log(temp_id);
+		$('#delModal').modal('show');
+	}
+</script>

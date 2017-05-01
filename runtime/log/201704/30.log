@@ -1,0 +1,3878 @@
+[ 2017-04-30T17:58:55+08:00 ] ::1 ::1 POST /sky_financial/public/sky/login/login.html
+[ log ] localhost/sky_financial/public/sky/login/login.html [运行时间：0.265339s][吞吐率：3.77req/s] [内存消耗：2,315.02kb] [文件加载：54]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost/sky_financial/public/sky/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; _ga=GA1.1.1075840856.1493040292; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4',
+)
+[ info ] [ PARAM ] array (
+  'username' => '李丽莹',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\sky\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028574s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_user` [ RunTime:0.032049s ]
+[ sql ] [ SQL ] SELECT * FROM `sky_user` WHERE  `username` = '李丽莹'  AND `password` = '1' [ RunTime:0.009532s ]
+[ sql ] [ SQL ] UPDATE `sky_user`  SET `ip`='111.666.888.999',`date`='1493546335'  WHERE  `username` = '李丽莹'  AND `password` = '1' [ RunTime:0.018202s ]
+
+---------------------------------------------------------------
+[ 2017-04-30T17:58:55+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.034139s][吞吐率：29.29req/s] [内存消耗：1,796.58kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; _ga=GA1.1.1075840856.1493040292; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:14:11+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.038321s][吞吐率：26.10req/s] [内存消耗：1,863.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:14:16+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.029295s][吞吐率：34.14req/s] [内存消耗：1,700.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:14:19+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.017283s][吞吐率：57.86req/s] [内存消耗：1,700.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _gat=1; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:18:01+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.026076s][吞吐率：38.35req/s] [内存消耗：2,051.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:20:25+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.026232s][吞吐率：38.12req/s] [内存消耗：2,059.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:21:19+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.033326s][吞吐率：30.01req/s] [内存消耗：2,055.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:23:12+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.032382s][吞吐率：30.88req/s] [内存消耗：2,059.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:23:37+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.025450s][吞吐率：39.29req/s] [内存消耗：2,059.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:23:55+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023220s][吞吐率：43.07req/s] [内存消耗：2,059.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _gat=1; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:24:20+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.024573s][吞吐率：40.69req/s] [内存消耗：2,055.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:27:39+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019406s][吞吐率：51.53req/s] [内存消耗：1,907.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:28:39+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.017754s][吞吐率：56.33req/s] [内存消耗：1,720.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:30:36+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.020464s][吞吐率：48.87req/s] [内存消耗：1,907.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:31:23+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019165s][吞吐率：52.18req/s] [内存消耗：1,907.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:31:31+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.020545s][吞吐率：48.67req/s] [内存消耗：1,720.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _gat=1; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:32:38+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019829s][吞吐率：50.43req/s] [内存消耗：1,907.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:33:00+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.017630s][吞吐率：56.72req/s] [内存消耗：1,907.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:33:09+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018646s][吞吐率：53.63req/s] [内存消耗：1,907.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _gat=1; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:34:53+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018763s][吞吐率：53.30req/s] [内存消耗：1,907.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:36:17+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.016964s][吞吐率：58.95req/s] [内存消耗：1,720.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:56:31+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.040532s][吞吐率：24.67req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:56:37+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.016479s][吞吐率：60.68req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:56:47+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018710s][吞吐率：53.45req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T18:56:52+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.021479s][吞吐率：46.56req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:05:45+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023383s][吞吐率：42.77req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:06:15+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.017262s][吞吐率：57.93req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:06:21+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.016038s][吞吐率：62.35req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:09:29+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019228s][吞吐率：52.01req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:09:34+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.017227s][吞吐率：58.05req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:13:31+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.024660s][吞吐率：40.55req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:15:25+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.026500s][吞吐率：37.74req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:15:39+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.027515s][吞吐率：36.34req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:15:54+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.021571s][吞吐率：46.36req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:20:58+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018417s][吞吐率：54.30req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:21:12+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.027758s][吞吐率：36.03req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:23:03+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019537s][吞吐率：51.19req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:24:26+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.021630s][吞吐率：46.23req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:24:49+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019860s][吞吐率：50.35req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:24:58+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.022953s][吞吐率：43.57req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:25:32+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.017729s][吞吐率：56.40req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:26:12+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019733s][吞吐率：50.68req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:27:44+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019048s][吞吐率：52.50req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:27:57+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023609s][吞吐率：42.36req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:27:59+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.016630s][吞吐率：60.13req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:28:05+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018454s][吞吐率：54.19req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:29:05+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.017730s][吞吐率：56.40req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:29:08+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.015616s][吞吐率：64.04req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:33:03+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018242s][吞吐率：54.82req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:33:08+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.015657s][吞吐率：63.87req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:33:32+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023333s][吞吐率：42.86req/s] [内存消耗：1,867.81kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:33:35+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.020810s][吞吐率：48.05req/s] [内存消耗：1,696.50kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:37:56+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.030510s][吞吐率：32.78req/s] [内存消耗：1,337.52kb] [文件加载：40]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php:9]
+
+---------------------------------------------------------------
+[ 2017-04-30T19:38:06+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.020965s][吞吐率：47.70req/s] [内存消耗：1,442.11kb] [文件加载：44]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function assign() on null[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/library/think/Controller.php:137]
+
+---------------------------------------------------------------
+[ 2017-04-30T19:41:39+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018293s][吞吐率：54.67req/s] [内存消耗：1,871.15kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:41:41+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019954s][吞吐率：50.12req/s] [内存消耗：1,699.84kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:42:59+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019703s][吞吐率：50.75req/s] [内存消耗：1,871.10kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:44:25+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023166s][吞吐率：43.17req/s] [内存消耗：1,871.12kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:45:08+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.021966s][吞吐率：45.52req/s] [内存消耗：1,871.15kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:45:32+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.022323s][吞吐率：44.80req/s] [内存消耗：1,871.15kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:46:03+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018665s][吞吐率：53.58req/s] [内存消耗：1,699.91kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:46:49+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.025679s][吞吐率：38.94req/s] [内存消耗：1,871.10kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:47:12+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.018646s][吞吐率：53.63req/s] [内存消耗：1,699.87kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:48:35+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.022416s][吞吐率：44.61req/s] [内存消耗：1,871.10kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T19:49:02+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.025903s][吞吐率：38.61req/s] [内存消耗：1,871.10kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:20:06+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023578s][吞吐率：42.41req/s] [内存消耗：1,871.10kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:25:35+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023785s][吞吐率：42.04req/s] [内存消耗：1,894.27kb] [文件加载：54]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: node_1[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/runtime/temp/36ffcf732fa93fc0e168d1217acf1de6.php:164]
+
+---------------------------------------------------------------
+[ 2017-04-30T20:26:40+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.024259s][吞吐率：41.22req/s] [内存消耗：1,871.10kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:33:46+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.029257s][吞吐率：34.18req/s] [内存消耗：1,895.53kb] [文件加载：54]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: node[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/runtime/temp/36ffcf732fa93fc0e168d1217acf1de6.php:166]
+
+---------------------------------------------------------------
+[ 2017-04-30T20:34:34+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.019049s][吞吐率：52.50req/s] [内存消耗：1,698.37kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:34:48+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.015855s][吞吐率：63.07req/s] [内存消耗：1,698.34kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:35:03+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.020983s][吞吐率：47.66req/s] [内存消耗：1,698.34kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:40:17+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.022296s][吞吐率：44.85req/s] [内存消耗：1,698.34kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:40:19+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.021096s][吞吐率：47.40req/s] [内存消耗：1,698.27kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:44:54+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.023155s][吞吐率：43.19req/s] [内存消耗：1,871.41kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:44:56+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.023836s][吞吐率：41.95req/s] [内存消耗：1,871.49kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:46:14+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.022192s][吞吐率：45.06req/s] [内存消耗：1,817.57kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:46:44+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.021648s][吞吐率：46.19req/s] [内存消耗：1,817.57kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:48:02+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.018623s][吞吐率：53.70req/s] [内存消耗：1,871.57kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:49:40+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.018166s][吞吐率：55.05req/s] [内存消耗：1,826.57kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:50:29+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.018145s][吞吐率：55.11req/s] [内存消耗：1,826.57kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T20:55:46+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.024743s][吞吐率：40.42req/s] [内存消耗：1,860.12kb] [文件加载：54]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: js_file[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/runtime/temp/dcd0c8eb56716da71873054865202299.php:254]
+
+---------------------------------------------------------------
+[ 2017-04-30T21:00:24+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.018629s][吞吐率：53.68req/s] [内存消耗：1,337.66kb] [文件加载：40]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$js_file' (T_VARIABLE), expecting function (T_FUNCTION)[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php:6]
+
+---------------------------------------------------------------
+[ 2017-04-30T21:00:53+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.021823s][吞吐率：45.82req/s] [内存消耗：1,818.15kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:02:16+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.015934s][吞吐率：62.76req/s] [内存消耗：1,671.38kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:03:16+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.024770s][吞吐率：40.37req/s] [内存消耗：1,818.18kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:03:45+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.023415s][吞吐率：42.71req/s] [内存消耗：1,818.45kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:04:25+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.018488s][吞吐率：54.09req/s] [内存消耗：1,818.51kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:04:42+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.018401s][吞吐率：54.34req/s] [内存消耗：1,818.26kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:04:49+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.022888s][吞吐率：43.69req/s] [内存消耗：1,818.51kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:05:07+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.024517s][吞吐率：40.79req/s] [内存消耗：1,671.63kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:07:52+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.020461s][吞吐率：48.87req/s] [内存消耗：1,818.18kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:11:31+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.022156s][吞吐率：45.13req/s] [内存消耗：1,662.72kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:__JS__/nestable/jquery.nestable.min.js[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-04-30T21:13:39+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.022417s][吞吐率：44.61req/s] [内存消耗：1,818.73kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:21:08+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.024490s][吞吐率：40.83req/s] [内存消耗：1,818.23kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:32:06+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.023944s][吞吐率：41.76req/s] [内存消耗：1,818.23kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-30T21:32:15+08:00 ] ::1 ::1 GET /sky_financial/public/sky/accountconf/index.html
+[ log ] localhost/sky_financial/public/sky/accountconf/index.html [运行时间：0.019510s][吞吐率：51.26req/s] [内存消耗：1,818.23kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'accountconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Accountconf->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Accountconf.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/accountconf/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
