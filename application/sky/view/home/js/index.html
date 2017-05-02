@@ -1,5 +1,9 @@
 <script type="text/javascript">
-	var pid=0;var hide=1;
+	var select_pid=0;
+	var select_modal_id=0;
+	var tree_hide=1;
+	var modal_tree_hide=1;
+	var add_account_name="";
 	$(document).ready(function() {
 		tree(eval({$list_node}),0,0);
 		//console.log(eval({$list_node}));
@@ -9,38 +13,96 @@
 	            e.stopPropagation();
 	        });
 	    });
+	    $('#add_date').val('{$now_date}');	
 	});
 	function tree(arr,pid=0,level=0) {
 		for (var i = 0; i < arr.length; i++) {
 			if (arr[i]['pid']==pid) {
 				//console.log(arr[i]['pid']+'$'+pid);
-				var str='';
+				var str='';var modal_str='';
 				if(arr[i]['top']==1){
-					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-inverse"><div class="dd-handle"><div name="'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="select('+arr[i]['id']+')">选择</a></div></div><ol id="tree_'+arr[i]['id']+'" class="dd-list"></ol></li>';
+					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-inverse"><div class="dd-handle"><div name="'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="select_tree('+arr[i]['id']+')">选择</a></div></div><ol id="tree_'+arr[i]['id']+'" class="dd-list"></ol></li>';
+					modal_str='<li top="'+arr[i]['top']+'" class="dd-item bordered-inverse"><div class="dd-handle"><div name="modal'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"></div></div><ol id="modal_tree_'+arr[i]['id']+'" class="dd-list"></ol></li>';
 				}
 				else{
-					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-blue"><div class="dd-handle"><div name="'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="select('+arr[i]['id']+')">选择</a></div></div></li>';
+					str='<li top="'+arr[i]['top']+'" class="dd-item bordered-blue"><div class="dd-handle"><div name="'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="select_tree('+arr[i]['id']+')">选择</a></div></div></li>';
+					modal_str='<li top="'+arr[i]['top']+'" class="dd-item bordered-blue"><div class="dd-handle"><div name="modal'+arr[i]['id']+'" class=" col-xs-5" style="padding:0px">'+arr[i]['account_name']+'</div><div class=" col-xs-6 pull-right" style="text-align:right;padding:0px"><a name="add" type="button" class="btn btn-info" style="padding:2px;margin-left:3px" onclick="select_modal_tree('+arr[i]['id']+')">选择</a></div></div></li>';
 				}
 
 				$("#tree_"+arr[i]['pid']).append(str);
+				$("#modal_tree_"+arr[i]['pid']).append(modal_str);
 				tree(arr,arr[i]['id'],level+1);
 			}
 		}
 	}
-	function select(id) {
-		pid=id;
+	function select_tree(id) {
+		select_pid=id;
 		$('#tree').addClass('hide');
-		$('#select_account').html($('div[name="'+pid+'"]').html());
-		hide=1;
-		console.log(pid);
+		$('#select_account').html($('div[name="'+select_pid+'"]').html());
+		tree_hide=1;
+		console.log(select_pid);
+	}
+	function select_modal_tree(id) {
+		select_modal_id=id;
+		$('#modal_tree').addClass('hide');
+		$('#select_modal_account').html($('div[name="modal'+select_modal_id+'"]').html());
+		add_account_name=$('div[name="modal'+select_modal_id+'"]').html();
+		
+		tree_hide=1;
+		console.log(select_modal_id);
 	}
 	function hide_tree() {
-		if (hide==0) {
+		if (tree_hide==0) {
 			$('#tree').addClass('hide');
-			hide=1;
+			tree_hide=1;
 		} else {
 			$('#tree').removeClass('hide');
-			hide=0;
+			tree_hide=0;
 		}
 	}
+	function hide_modal_tree() {
+		if (modal_tree_hide==0) {
+			$('#modal_tree').addClass('hide');
+			modal_tree_hide=1;
+		} else {
+			$('#modal_tree').removeClass('hide');
+			modal_tree_hide=0;
+		}
+	}
+	function show_add_modal(id=0) {
+		$('#addModal').modal('show');
+	}
+	function add() {
+		var ok=1;
+		if (add_account_name=='') {ok='科目名不能为空';}
+		if ($('#add_money').val()=='') {ok='金额不能为空';}
+		if ($('#add_date').val()=='') {ok='日期不能为空';}
+		if (isNaN($('#add_money').val())) {ok='金额格式错误';}
+		if (!RQcheck($('#add_date').val())) {ok='日期格式错误';}
+		$('#addModal').modal('hide');
+		if (ok==1) {
+			$.get("{:url('add')}", {account_name:add_account_name,account_id:select_modal_id,money:$('#add_money').val(),date:$('#add_date').val()}, function (data) {
+				console.log(data);
+				if (data>=1) {
+					$('#table_add').prepend('<tr><td>'+add_account_name+'</td><td>'+$('#add_date').val()+'</td><td>'+$('#add_money').val()+'</td><td><a href="#" class="btn btn-info btn-xs edit" style="margin-right: 3px;" onclick="edit('+data+')"><i class="fa fa-edit"></i> Edit</a><a href="#" class="btn btn-danger btn-xs delete" onclick="del('+data+')"><i class="fa fa-trash-o"></i> Delete</a></td></tr>');
+				} else {
+					$('#modal_text').html('提交失败/(ㄒoㄒ)/~~');
+        			$('#modal_small').modal('show');
+				}
+			})
+		}else{
+			$('#modal_text').html('提交失败/(ㄒoㄒ)/~~'+ok);
+        	$('#modal_small').modal('show');
+		}
+	}
+	function RQcheck(RQ) {
+        var date = RQ;
+        var result = date.match(/^(\d{1,4})(-|\/)(\d{1,2})\2(\d{1,2})$/);
+
+        if (result == null)
+            return false;
+        var d = new Date(result[1], result[3] - 1, result[4]);
+        return (d.getFullYear() == result[1] && (d.getMonth() + 1) == result[3] && d.getDate() == result[4]);
+
+    }
 </script>

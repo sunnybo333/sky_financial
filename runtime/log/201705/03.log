@@ -1,0 +1,362 @@
+[ 2017-05-03T00:00:52+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.039393s][吞吐率：25.39req/s] [内存消耗：2,576.07kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+  4 => 'list_node',
+  5 => 'now_date',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000595s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_account_node` [ RunTime:0.007019s ]
+[ sql ] [ SQL ] SELECT * FROM `sky_account_node` WHERE  `del` = 0 [ RunTime:0.000540s ]
+
+---------------------------------------------------------------
+[ 2017-05-03T00:01:04+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/add.html?account_name=%E5%8A%9E%E5%85%AC%E8%B4%B9&money=2222&date=2017-05-03
+[ log ] localhost/sky_financial/public/sky/home/add.html?account_name=%E5%8A%9E%E5%85%AC%E8%B4%B9&money=2222&date=2017-05-03 [运行时间：0.063706s][吞吐率：15.70req/s] [内存消耗：2,330.76kb] [文件加载：52]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+  'account_name' => '办公费',
+  'money' => '2222',
+  'date' => '2017-05-03',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->add[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001892s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_account_node` [ RunTime:0.008647s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sky_account_node` WHERE  `account_name` = '办公费' LIMIT 1 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sky_account_node` WHERE  `account_name` = '办公费'  AND `pid` = 9 LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002058s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_detial` [ RunTime:0.009510s ]
+[ sql ] [ SQL ] INSERT INTO `sky_detial` (`account_name` , `money` , `date`) VALUES ('办公费' , 2222 , '1493740800') [ RunTime:0.003650s ]
+
+---------------------------------------------------------------
+[ 2017-05-03T00:19:24+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.028859s][吞吐率：34.65req/s] [内存消耗：1,392.73kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Constant expression contains invalid operations[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php:32]
+
+---------------------------------------------------------------
+[ 2017-05-03T00:20:04+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.038601s][吞吐率：25.91req/s] [内存消耗：2,577.36kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+  4 => 'list_node',
+  5 => 'now_date',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000832s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_account_node` [ RunTime:0.005693s ]
+[ sql ] [ SQL ] SELECT * FROM `sky_account_node` WHERE  `del` = 0 [ RunTime:0.000579s ]
+
+---------------------------------------------------------------
+[ 2017-05-03T00:20:41+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/add.html?account_name=%E5%85%B6%E4%BB%96%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5&account_id=20&money=8888&date=2017-05-03
+[ log ] localhost/sky_financial/public/sky/home/add.html?account_name=%E5%85%B6%E4%BB%96%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5&account_id=20&money=8888&date=2017-05-03 [运行时间：0.054715s][吞吐率：18.28req/s] [内存消耗：2,296.59kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+  'account_name' => '其他业务收入',
+  'account_id' => '20',
+  'money' => '8888',
+  'date' => '2017-05-03',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->add[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_account_node` [ RunTime:0.009788s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'account_id' in 'where clause'[/Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/library/think/db/Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-05-03T00:21:20+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/index.html
+[ log ] localhost/sky_financial/public/sky/home/index.html [运行时间：0.047171s][吞吐率：21.20req/s] [内存消耗：2,577.36kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->index[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/index.html [ array (
+  0 => 'node',
+  1 => 'header',
+  2 => 'active_node',
+  3 => 'js_file',
+  4 => 'list_node',
+  5 => 'now_date',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_account_node` [ RunTime:0.012915s ]
+[ sql ] [ SQL ] SELECT * FROM `sky_account_node` WHERE  `del` = 0 [ RunTime:0.000911s ]
+
+---------------------------------------------------------------
+[ 2017-05-03T00:21:52+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/add.html?account_name=%E4%B8%BB%E8%90%A5%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5&account_id=11&money=9999&date=2017-05-03
+[ log ] localhost/sky_financial/public/sky/home/add.html?account_name=%E4%B8%BB%E8%90%A5%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5&account_id=11&money=9999&date=2017-05-03 [运行时间：0.061075s][吞吐率：16.37req/s] [内存消耗：2,234.26kb] [文件加载：52]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+  'account_name' => '主营业务收入',
+  'account_id' => '11',
+  'money' => '9999',
+  'date' => '2017-05-03',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->add[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006645s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_account_node` [ RunTime:0.006871s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sky_account_node` WHERE  `account_name` = '主营业务收入'  AND `id` = 0 LIMIT 1 [ RunTime:0.000398s ]
+
+---------------------------------------------------------------
+[ 2017-05-03T00:22:23+08:00 ] ::1 ::1 GET /sky_financial/public/sky/home/add.html?account_name=%E4%B8%BB%E8%90%A5%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5&account_id=11&money=9999&date=2017-05-03
+[ log ] localhost/sky_financial/public/sky/home/add.html?account_name=%E4%B8%BB%E8%90%A5%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5&account_id=11&money=9999&date=2017-05-03 [运行时间：0.074685s][吞吐率：13.39req/s] [内存消耗：2,333.64kb] [文件加载：52]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/sky_financial/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sky',
+    1 => 'home',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/sky_financial/public/sky/home/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Phpstorm-5a4156d=77066e17-f2ae-4c0f-a063-f9a746101e21; PHPSESSID=toofp7hfc9o2fpdfdv2ccssbv4; _ga=GA1.1.1075840856.1493040292',
+)
+[ info ] [ PARAM ] array (
+  'account_name' => '主营业务收入',
+  'account_id' => '11',
+  'money' => '9999',
+  'date' => '2017-05-03',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sky\controller\Home->add[ /Applications/XAMPP/xamppfiles/htdocs/sky_financial/application/sky/controller/Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000946s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_account_node` [ RunTime:0.014331s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sky_account_node` WHERE  `account_name` = '主营业务收入'  AND `id` = 11 LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sky_account_node` WHERE  `account_name` = '主营业务收入'  AND `id` = 11  AND `pid` = 11 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:dbname=sky_finacial;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sky_detial` [ RunTime:0.010066s ]
+[ sql ] [ SQL ] INSERT INTO `sky_detial` (`account_name` , `account_id` , `money` , `date`) VALUES ('主营业务收入' , 11 , 9999 , '1493740800') [ RunTime:0.006505s ]
+
+---------------------------------------------------------------

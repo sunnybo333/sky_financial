@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:98:"/Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/total.html";i:1493653518;s:101:"/Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/layout/layout.html";i:1493648377;s:42:"../application/sky/view/home/js/total.html";i:1493651944;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:98:"/Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/home/total.html";i:1493725795;s:101:"/Applications/XAMPP/xamppfiles/htdocs/sky_financial/public/../application/sky/view/layout/layout.html";i:1493648377;s:42:"../application/sky/view/home/js/total.html";i:1493651944;}*/ ?>
 ﻿<!DOCTYPE html>
 <!--
 BeyondAdmin - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
@@ -233,25 +233,30 @@ Purchase: http://wrapbootstrap.com
                             <a id="select_account" href="javascript:void(0);" class="btn btn-default" onclick="hide_tree()">
                                 选择显示科目
                             </a>
+                        </div>
+                        <div class="table-toolbar  col-xs-12 col-md-3">
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="being_date" placeholder="2017-01-01">
+                              
+                              <div class="input-group-addon">至</div>
+                              
+                              <input type="text" class="form-control" id="end_date" placeholder="2017-01-31">
+                              
+                            </div>
+                        </div>
+                        <div class="table-toolbar  col-xs-12  col-md-1 pull-right" style="text-align: right">
+                            <a id="search" href="javascript:void(0);" class="btn btn-info" style="margin-top: 2px">
+                            查询</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12" style="padding: 0px">
+                        <div class="table-toolbar col-xs-12 col-md-6">
                             <div id="tree" class="dd shadowed hide">
                                 <ol id="tree_0" class="dd-list">
                                     
                                 </ol>
 
                             </div>
-                        </div>
-                        <div class="table-toolbar  col-xs-12 col-md-3">
-                            <div class="controls">
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-calendar"></i>
-                                    </span><input type="text" class="form-control" id="reservation" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="table-toolbar  col-xs-12  col-md-1 pull-right" style="text-align: right">
-                            <a id="search" href="javascript:void(0);" class="btn btn-info" style="margin-top: 2px">
-                            查询</a>
                         </div>
                     </div>
                     <table class="table table-striped table-hover table-bordered" id="editabledatatable">
